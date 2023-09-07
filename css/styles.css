@@ -69,7 +69,7 @@ body{
 
 .navs-item{
     padding:2% 5%;
-    border:0.25vw solid #71C9CE;
+    border:0.25vw solid #3F72AF;
     border-radius: 100%;
     text-align: center;
     justify-content: center;
@@ -80,14 +80,14 @@ body{
 }
 
 .navs-item:hover {
-    background-color: #71C9CE;
+    background-color: #F8F6F4;
     color: white; 
 }
 
 .skills-container{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    padding:0% 10%
+    padding:0% 5%
 }
 
 .skill{
@@ -111,19 +111,15 @@ body{
     border-radius: 15px;
     background-color: #1D5B79; 
     align-items: center;
-    animation: percentage-bar-animation 1.5s ease-in-out;
+    animation: percentage-bar-animation 1s ease-in-out;
+    height:3vh;
 }
 
 .skill-level{
     text-align: center;
     color: aliceblue;
     padding-bottom:1px;
-}
-
-@media (max-width: 768px) {
-    .perc {
-        height: 1.5vh; /* Adjust the height for mobile devices */
-    }
+    font-size:2.5vh
 }
 
 .python{
@@ -206,9 +202,7 @@ body{
     0% {
         width: 0;
     }
-    50% {
-        width: 100%;
-    }
+
     100% {
         width: var(--initial-width);
     }
