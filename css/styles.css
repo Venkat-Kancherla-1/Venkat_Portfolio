@@ -122,6 +122,18 @@ body{
     font-size:2.5vh
 }
 
+@media (orientation: portrait) {
+    .perc{
+        height:1vh
+    }
+    .skill-level{
+        font-size:0.75vh
+    
+    }
+}
+
+
+
 .python{
     --initial-width: 85%;
     width: 85%; 
